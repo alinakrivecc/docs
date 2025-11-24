@@ -1,6 +1,6 @@
 # git commands
 ## create local repo
-`git init` - create git
+`git init` - create git\
 `git remote -v` - show remote repo link\
 `git remote add origin git@github.com:alinakrivecc/docs.git` - add repo link\
 `git push -u origin master` - send to remote git\
@@ -11,9 +11,9 @@
 
 ## clone
 
-`git clone https://github.com/user/project.git` - clone remote repo
-`git checkout -b develop` - create new branch
-`git checkout master` - go to branch master
+`git clone https://github.com/user/project.git` - clone remote repo\
+`git checkout -b develop` - create new branch\
+`git checkout master` - go to branch master\
 `git pull` - get repo updates if somebody did it
 
 ## commit
@@ -23,5 +23,5 @@
 `git add .` - add all \
 `git commit -am 'docs: add unix doc` - commit all\
 `git commit -m 'docs: add unix doc'` - commit\
-`git commit --amend -m "docs: add git clone commands"` - rewrite last commit if needed
+`git commit --amend -m "docs: add git clone commands"` - rewrite last commit if needed\
 `git push` - send to remote repos
